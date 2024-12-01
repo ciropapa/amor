@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feliz 6 Meses</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #ffffff; /* Fondo blanco */
+            color: #333;
+            text-align: center;
+            overflow-x: hidden;
+        }
+
+        .gallery {
+            position: relative;
+            width: 100%;
+            height: 400px; /* Altura máxima para la galería */
+            margin: 20px auto;
+            overflow: hidden; /* Asegura que las imágenes no salgan del contenedor */
+        }
+
+        .gallery img {
+            position: absolute;
+            width: 150px;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border: 2px solid #ddd;
+            transition: transform 0.3s ease, filter 0.3s ease;
+            filter: grayscale(100%); /* Filtro blanco y negro */
+        }
+
+        .gallery img:hover {
+            transform: scale(1.2);
+            filter: grayscale(0%); /* Se quita el filtro al pasar el mouse */
+        }
+
+        /* Posiciones aleatorias dentro de la galería */
+        .img1 { top: 10%; left: 5%; }
+        .img2 { top: 15%; left: 70%; }
+        .img3 { top: 25%; left: 35%; }
+        .img4 { top: 40%; left: 20%; }
+        .img5 { top: 30%; left: 55%; }
+        .img6 { top: 10%; left: 80%; }
+        .img7 { top: 35%; left: 10%; }
+        .img8 { top: 20%; left: 50%; }
+
+        .text-section {
+            margin: 20px auto;
+            max-width: 800px;
+            padding: 20px;
+            background: #f9f9f9;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .text-section h2 {
+            font-size: 1rem; /* Tamaño de letra más pequeño */
+            margin-bottom: 10px;
+        }
+
+        .text-section p {
+            font-size: 1rem;
+            line-height: 1.6;
+            text-align: justify;
+            color: #333;
+        }
+
+        .button {
+            display: inline-block;
+            margin: 20px auto;
+            padding: 15px 30px;
+            font-size: 1.2rem;
+            background: #ffffff;
+            color: #333;
+            text-decoration: none;
+            border-radius: 25px;
+            border: 2px solid #333;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: background 0.3s ease, transform 0.2s ease;
+        }
+
+        .button:hover {
+            background: #f0f0f0;
+            transform: scale(1.05);
+        }
+
+        footer {
+            margin: 20px 0;
+            font-size: 0.9rem;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <h1>¡Feliz 6 Meses, Mi Amor! 💖</h1>
+
+    <!-- Galería de imágenes dispersas -->
+    <div class="gallery">
+        <img src="1.jpg" alt="Imagen 1" class="img1">
+        <img src="2.jpg" alt="Imagen 2" class="img2">
+        <img src="3.jpg" alt="Imagen 3" class="img3">
+        <img src="4.jpg" alt="Imagen 4" class="img4">
+        <img src="5.jpg" alt="Imagen 5" class="img5">
+        <img src="6.jpg" alt="Imagen 6" class="img6">
+        <img src="7.jpg" alt="Imagen 7" class="img7">
+        <img src="8.jpg" alt="Imagen 8" class="img8">
+    </div>
+
+    <!-- Espacio para escribir un mensaje -->
+    <div class="text-section">
+        <h2>Para vos con mucho amorr ❤️‍🩹</h2>
+        <p>
+            ¡FELIZ MEDIO AÑO BEBEE! No se por donde empezar pero si se lo mucho que te amo.
+        </p>
+    </div>
+
+    <!-- Botón hacia YouTube -->
+    <a href="https://www.youtube.com/watch?v=rIV9sv2Rvpk" target="_blank" class="button">
+        🎵 Escucha nuestra canción
+    </a>
+
+    <footer>
+        Con mucho amor, hecho por Ciro para el amor de su vida. 🌹
+    </footer>
+</body>
+</html>
